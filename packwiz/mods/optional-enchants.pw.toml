@@ -1,0 +1,13 @@
+name = "Optional Enchants"
+filename = "optional_enchants-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KdMnJcmT/versions/5mnC7DuK/optional_enchants-1.1.0.jar"
+hash-format = "sha1"
+hash = "d414606455419af274040120ff981c74273b59e3"
+
+[update]
+[update.modrinth]
+mod-id = "KdMnJcmT"
+version = "5mnC7DuK"
