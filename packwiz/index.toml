@@ -111,11 +111,6 @@ hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
 metafile = true
 
 [[files]]
-file = "mods/inmis.pw.toml"
-hash = "feefe07278b869d769f1f679c89f9e37056558802cf16d0f96f79759ac372ba8"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "7df52a269aaabcb9c4d3ce72322177f4cb5d2e8fc8d506554fa6b6290b0ad548"
 metafile = true
