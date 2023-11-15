@@ -236,6 +236,11 @@ hash = "44ab19941b58049d859553df1a1a9d31e5eaf0eb98a8b7c4d3f79d9b39e1c368"
 metafile = true
 
 [[files]]
+file = "mods/universal-graves.pw.toml"
+hash = "be279645ea0cbffc9bfff8b8365cc6f1f24cc3d8ef7532884b1bdeb24c213127"
+metafile = true
+
+[[files]]
 file = "mods/vein-mining.pw.toml"
 hash = "702040cffc2b9ceaf0a8dd8f65c79c8790ae6d358c1a23ff657dec110d79e7f0"
 metafile = true
