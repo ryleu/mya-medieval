@@ -1,0 +1,13 @@
+name = "Paps Fantasy Origins"
+filename = "Paps_Fantasy_Origins-1_5-1_20_0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/E9PZNnAm/versions/Gn8JZFgS/Paps_Fantasy_Origins-1_5-1_20_0.jar"
+hash-format = "sha1"
+hash = "275b013ec232ebf71f6cd8d07dad1fa7ef88c3a0"
+
+[update]
+[update.modrinth]
+mod-id = "E9PZNnAm"
+version = "Gn8JZFgS"

@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565" # minecraft
+    restart: always
+    environment:
+      TYPE: "FABRIC"
+      PACKWIZ_URL: "https://ryleu.me/mya-medieval/packwiz/pack.toml"
+      EULA: true
+      MOTD: "mya's medieval server :3"
+      DIFFICULTY: "EASY"
+      #SEED: ""
+      SPAWN_PROTECTION: 0
+      VIEW_DISTANCE: 6
+      OPS_FILE: "https://ryleu.me/mya-medieval/minecraft/ops.json"
+      WHITELIST_FILE: "https://ryleu.me/mya-medieval/minecraft/whitelist.json"
+      MEMORY: "4G"
+      USE_AIKAR_FLAGS: true
+      VERSION: "1.20.2"
+    volumes:
+      - ./data:/data
