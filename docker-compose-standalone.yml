@@ -28,6 +28,6 @@ services:
       WHITELIST_FILE: "http://web/minecraft/whitelist.json"
       MEMORY: "4G"
       USE_AIKAR_FLAGS: true
-      VERSION: "1.20.2"
+      VERSION: "1.20.1"
     volumes:
       - ./data:/data
