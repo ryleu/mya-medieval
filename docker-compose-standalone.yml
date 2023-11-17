@@ -12,6 +12,7 @@ services:
     tty: true
     stdin_open: true
     ports:
+      - "8100:80" # bluemap
       - "25565:25565" # minecraft
     restart: no
     attach: true
@@ -21,11 +22,14 @@ services:
       EULA: true
       MOTD: "mya's medieval testing server :3"
       DIFFICULTY: "EASY"
-      #SEED: ""
+      SEED: "-8302553684957961049"
       SPAWN_PROTECTION: 0
       VIEW_DISTANCE: 6
       OPS_FILE: "http://web/minecraft/ops.json"
-      WHITELIST_FILE: "http://web/minecraft/whitelist.json"
+      #WHITELIST_FILE: "http://web/minecraft/whitelist.json"
+      ENFORCE_WHITELIST: false
+      ENABLE_WHITELIST: false
+      ONLINE_MODE: true
       MEMORY: "4G"
       USE_AIKAR_FLAGS: true
       VERSION: "1.20.1"
