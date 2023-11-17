@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/origins_server.json"
+hash = "c1e4909c4ae4c9ce03068843c6e29b0d7f037e243b97c419cbc9d459d9c695dc"
+
+[[files]]
 file = "mods/adorn.pw.toml"
 hash = "cacfa864fbcef1fe67e225eec84733b86c130d2cc218c9a492c10e7f332a33f5"
 metafile = true
@@ -66,6 +70,11 @@ hash = "9a4d1f42d2798dac502f7adcbee9b6691d7e79c50d91b23af11923893a686b8b"
 metafile = true
 
 [[files]]
+file = "mods/croptopia.pw.toml"
+hash = "8361392d5f517beb700ee5367c05c81448dba6d2becae59e37dd2720157d38c9"
+metafile = true
+
+[[files]]
 file = "mods/ct-overhaul-village.pw.toml"
 hash = "80298b747a1905798731066e4d8344aa2bb3367fb8b7d7492780cac46e9047f7"
 metafile = true
@@ -78,6 +87,11 @@ metafile = true
 [[files]]
 file = "mods/debugify.pw.toml"
 hash = "4ba45966a267b774f5d83442c3c43d740f55e11a910e117e50c046b4f77b5c66"
+metafile = true
+
+[[files]]
+file = "mods/do-api.pw.toml"
+hash = "30fb7e07f424a4a159219da3a77841f335357651a081033f5ddcd880814928a2"
 metafile = true
 
 [[files]]
@@ -261,6 +275,11 @@ hash = "eefa3b58473952bca5aa799f191264940d67dfbcdfa2c0b7183e3cb1938cf443"
 metafile = true
 
 [[files]]
+file = "mods/sandwichable.pw.toml"
+hash = "f940a85f7fce47ee3228e10dfde0c7a818d5464337bb8ba0b7074b421975e359"
+metafile = true
+
+[[files]]
 file = "mods/slumber.pw.toml"
 hash = "31320905f9994253ed2f455c97e0707fe97bc4734f5096dc79b021369b4554b3"
 metafile = true
@@ -313,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/villager-names-serilum.pw.toml"
 hash = "5541d4666329b7977d1fcf7cdaae5201a6968e30679e855b4a0d1bebf5f08a6f"
+metafile = true
+
+[[files]]
+file = "mods/vinery.pw.toml"
+hash = "efa5ba51201941aa675e009a5cf92cc9fb5f1335ebb079a10cc8d70d2816fefc"
 metafile = true
 
 [[files]]

@@ -6,6 +6,7 @@ services:
     tty: true
     stdin_open: true
     ports:
+      - "8100:80" # bluemap
       - "25565:25565" # minecraft
     restart: always
     environment:
@@ -14,7 +15,7 @@ services:
       EULA: true
       MOTD: "mya's medieval server :3"
       DIFFICULTY: "EASY"
-      #SEED: ""
+      SEED: "-8302553684957961049"
       SPAWN_PROTECTION: 0
       VIEW_DISTANCE: 6
       OPS_FILE: "https://ryleu.me/mya-medieval/minecraft/ops.json"
